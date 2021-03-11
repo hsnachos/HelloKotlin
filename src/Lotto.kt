@@ -8,7 +8,7 @@ fun makeLotto():TreeSet<Int>{
         lottoTreeSet.add(random.nextInt(45)+1)
     }
     return lottoTreeSet
-}
+} // 로또번호 묶음 생성함수
 
 
 fun main(){
